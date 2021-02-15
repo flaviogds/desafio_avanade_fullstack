@@ -1,6 +1,6 @@
 ## Solução de Problemas com JavaScript
 
-### [Desafio 1 - Contagem repetida de números](/desafio_01.js)
+### [Desafio 1 - Contagem repetida de números](./desafio_01.js)
 
 Neste desafio sua tarefa será ler vários números e em seguida dizer quantas vezes cada número aparece, ou seja, deve-se escrever cada um dos valores distintos que aparecem na entrada por ordem crescente de valor.
 
@@ -24,7 +24,7 @@ Neste desafio sua tarefa será ler vários números e em seguida dizer quantas v
 |          10        |                       |
 |          10        |                       |
 	
-### [Desafio 2 - Vogais Extraterrestres](/desafio_02.js)
+### [Desafio 2 - Vogais Extraterrestres](./desafio_02.js)
 
 Desde o Gerador de Improbabilidade Infinita, muitos nem questionam sobre vidas extraterrestres, e se aprofundam em questionamentos mais improváveis, como, por exemplo, será que seres de outros planetas usam os mesmos caracteres que nós para se comunicarem? E se isso for verdade, será que usam as mesmas letras vogais que a gente? Pensando nisso, vários cientistas criaram inúmeros tipos de alfabetos alienígenas, usando as letras do nosso alfabeto, além dos dígitos, de 0 a 9, com as suas respectivas vogais. Baseados nisto, eles querem a sua ajuda para identificar vogais em alfabetos alienígenas e realizar a contagem.
 
@@ -49,7 +49,7 @@ Escreva um programa que, dado uma sequência de vogais, em um determinado alfabe
 | the quick brown fox jumps over the lazy dog|                       |
 
 
-### [Desafio 3 - Melhor amigo do Pablo](/desafio_03.js)
+### [Desafio 3 - Melhor amigo do Pablo](./desafio_03.js)
 
 Todo final de ano ocorre uma festa na escola. As inscrições para participar da festa são abertas no início de julho. No momento da inscrição, o aluno pode escolher se quer ser "O Amigo do Pablo" na festa ou não. O mais lógico seria escolher a opção Sim, afinal, é um privilégio ser O Amigo do Pablo, já que ele é a pessoa mais descolada da escola. Porém, há indivíduos que definitivamente não pretendem ser O Amigo do Pablo, e por motivos desconhecidos.
 
@@ -85,7 +85,7 @@ OBS.: Ninguém que escolheu a opção Não realizou a inscrição mais de uma ve
 |      Andres SIM    |                    |
 |         FIM        |                    |
 	
-### [Desafio 4 - Entrevista embaraçosa](/desafio_04.js)
+### [Desafio 4 - Entrevista embaraçosa](./desafio_04.js)
 
 A nutricionista Juliana Alcantra é uma excelente profissional de sua área. Em determinado dia, ela foi entrevistada ao vivo para um jornal da cidade. No entanto, ficou um pouco nervosa na hora, e diante da situação, sua fala ficou um pouco distorcida, repetindo o final de cada palavra após dizer a mesma. Para que isso não aconteça novamente, ela precisa da sua ajuda para escrever um programa que omita a parte repetida, de modo que as palavras sejam pronunciadas como deveriam ser.
 
@@ -110,7 +110,7 @@ Escreva um programa que, dada uma palavra errada, a mesma seja corrigida.
 |     astroastro     |       astro         |
 |          a         |         a           |
 	
-### [Desafio 5 - Conjuntos bons ou ruins?](/desafio_05.js)
+### [Desafio 5 - Conjuntos bons ou ruins?](./desafio_05.js)
 
 Nesse algoritmo você deverá descobrir se um conjunto de palavras é bom ou ruim. Por definição, um conjunto é bom quando nenhuma palavra desse conjunto é um prefixo de outra palavra. Caso contrário, é considerado um conjunto ruim.
 
@@ -136,7 +136,7 @@ Por exemplo, {*dbc*, *dae*, *dbcde*} é um conjunto ruim, pois dbc é um prefixo
 |         0          |
 
 
-### [Desafio 6 - Produto e divisão](/desafio_06.js)
+### [Desafio 6 - Produto e divisão](./desafio_06.js)
 
 Você tem a obrigação de testar as calculadores, para que façam apenas operações de multiplicação e divisão. Além disso, o termo a ser digitado em cada operação, (o número exibido no visor que será dividido ou multiplicado), só pode conter um único dígito.
 
@@ -182,7 +182,7 @@ No segundo caso de teste abaixo, o usuário deseja calcular o resultado da segui
 |          9 /
 
 
-### [Desafio 7 - Barras de ouro](/desafio_07.js)
+### [Desafio 7 - Barras de ouro](./desafio_07.js)
 
 O feudo da Mesopotâmia é rico e o povo é cordial e alegre. Mas quando o assunto são impostos, é praticamente um roubo. Todo final de ano, cada feudo do país deve pagar uma determinada quantidade de quilos de ouro em impostos. Quando é chegado o momento de coletar os impostos, o Rei envia sua carruagem real para recolher o ouro devido, usando as estradas do reino.
 
