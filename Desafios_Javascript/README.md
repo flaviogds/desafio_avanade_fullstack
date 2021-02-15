@@ -1,4 +1,4 @@
-## Executanto o codigo fonte
+## Executanto os desafios de Javascript
 
 Para executar os arquivos de código com o nodejs ou mesmo utilzando um navegador pode-se substituir uma função ** gets () ** pelo parâmetro desejado em cada variável do código, contudo isso é demasiadamente trabalhoso e contra produtivo.
 
