@@ -1,6 +1,6 @@
 ## Introdução a Programação com Javascript
 
-### [Desafio 1 - Visita na Feira](\desafio_01.js)
+### [Desafio 1 - Visita na Feira](/desafio_01.js)
 
 Você está na feira com a sua sacola e parou em uma banca. O feirante lhe entregou pimentões amarelos e vermelhos. Agora iremos somar os pimetões amarelos e vermelhos para descobrir o total de pimentões na sacola.  Você receberá 2 inteiros que devem ser lidos e armazenados nas variáveis A (pimentões amarelos) e B (pimentões vermelhos). Faça a soma de A e B atribuindo o seu resultado na variável X (total de pimentões). Apresente X como descrito na mensagem de exemplo abaixo. Não apresente outra mensagem além da mensagem especificada.
 
@@ -19,7 +19,7 @@ Você está na feira com a sua sacola e parou em uma banca. O feirante lhe entre
 |      -11 6         |      X = -5        |
 |       11 -2        |      X = 9         |
 
-### [Desafio 2 - Multiplicação Simples](\desafio_02.js)
+### [Desafio 2 - Multiplicação Simples](/desafio_02.js)
 
 Você receberá dois valores inteiros. Faça a leitura e em seguida calcule o produto entre estes dois valores. Atribua esta operação à variável *PROD*, mostrando esta de acordo com a mensagem de saída esperada (exemplo abaixo). 
 
@@ -36,7 +36,7 @@ Você receberá dois valores inteiros. Faça a leitura e em seguida calcule o pr
 |         3          |     PROD = 27      |
 |         9          |                    |
 
-### [Desafio 3 - Folha de Pagamento](\desafio_03.js)
+### [Desafio 3 - Folha de Pagamento](/desafio_03.js)
 
 Precisamos saber quanto uma determinada empresa deve pagar para seus colaboradores, porém temos apenas a quantidade de horas trabalhadas e o valor hora. Escreva um programa que leia o número de um colaborador, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse colaborador. Em seguida, apresente o número e o salário do colaborador, com duas casas decimais.
 

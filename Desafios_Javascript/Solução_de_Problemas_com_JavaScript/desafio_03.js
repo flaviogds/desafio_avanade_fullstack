@@ -63,4 +63,4 @@ list.map(input => {
 list.map(input => {
   input.answer === "NAO" ? console.log(input.name) : null;
 });
-console.log(`\nAmigo do Pablo:\n${winner.name}`);
+console.log(`/nAmigo do Pablo:/n${winner.name}`);

@@ -1,6 +1,6 @@
 ## Introdução a Programação com C#
 
-### [Desafio 1 - Dividindo X por Y](\desafio_01.cs)
+### [Desafio 1 - Dividindo X por Y](/desafio_01.cs)
 
 Você terá o desafio de escrever um algoritmo que leia 2 números e imprima o resultado da divisão do primeiro pelo segundo. Caso não for possível mostre a mensagem “divisao impossivel” para os valores em questão.
 
@@ -19,7 +19,7 @@ Você terá o desafio de escrever um algoritmo que leia 2 números e imprima o r
 |         -8 0       | divisao impossivel |
 |          0 8       |         0.0        |
 
-### [Desafio 2 - Distância](\desafio_02.cs)
+### [Desafio 2 - Distância](/desafio_02.cs)
 
 Duas motos (X e Y) partem em uma mesma direção. A moto X sai com velocidade constante de 60 Km/h e a moto Y sai com velocidade constante de 90 Km/h.
 
@@ -40,7 +40,7 @@ O seu desafio é ler a distância (em Km) e calcular quanto tempo leva (em minut
 |          30        |     60 minutos     |
 |         110        |     220 minutos    |
 
-### [Desafio 3 - Quanta Mandioca?](\desafio_03.cs)
+### [Desafio 3 - Quanta Mandioca?](/desafio_03.cs)
 
 Os meses de Junho e Julho são tradicionalmente conhecidos por todo Brasil por suas festas típicas, e para o grupo de amigos da Marlene não é diferente, toda segunda quinzena do mês de Julho ela e seus amigos se reunem para tradicional mandiocada! Na festiva sempre se reúnem na casa da Marlene, o Chico, o Beto, o Bernardo, a Marina e a Iara. E como não poderia ser diferente o prato principal dessa reunião é a mandioca. Cada um deles come de uma a dez porções de mandioca e eles sempre avisam a Marlene com antecedência a respeito de quantas porções irão comer nesse dia. O tamanho da porção de cada um é diferente, mas sempre são os mesmos. As porções são as seguintes (em gramas):
 

@@ -1,6 +1,6 @@
 ## Introdução a Programação com C#
 
-### [Desafio 1 - Quadrado e ao Cubo](\desafio_01.cs)
+### [Desafio 1 - Quadrado e ao Cubo](/desafio_01.cs)
 
 Você terá o desafio de escrever um programa que leia um valor inteiro N (1 < N < 1000). Este N é a quantidade de linhas de saída que serão apresentadas na execução do programa.
 
@@ -23,7 +23,7 @@ Você terá o desafio de escrever um programa que leia um valor inteiro N (1 < N
 
 
 
-### [Desafio 2 - A Corrida de Tartarugas](\desafio_02.cs)
+### [Desafio 2 - A Corrida de Tartarugas](/desafio_02.cs)
 
 A corrida de tartarugas é um esporte que cresceu muito nos últimos anos, fazendo com que vários competidores se dediquem a capturar tartarugas rápidas, e treina-las para faturar milhões em corridas pelo mundo. Porém a tarefa de capturar tartarugas não é uma tarefa muito fácil, pois quase todos esses répteis são bem lentos. Cada tartaruga é classificada em um nível dependendo de sua velocidade:
 
@@ -48,7 +48,7 @@ Sua tarefa é identificar qual o nível de velocidade da tartaruga mais veloz de
 | 10                            |     2   |
 |19 9 1 4 5 8 6 11 9 7          |         |
 
-### [Desafio 3 - Ultrapassando V](\desafio_03.cs)
+### [Desafio 3 - Ultrapassando V](/desafio_03.cs)
 
 Como um bom desenvolvedor, você precisa fazer um programa que leia dois ingeiros: R e V (devem ser lidos tantos valores para V quantos necessários, até que seja digitado um valor maior do que R para ele). Conte quantos números inteiros devem ser somados em sequência (considerando o R nesta soma) para que a soma ultrapasse a V o mínimo possível. Escreva o valor final da contagem.
 
@@ -67,7 +67,7 @@ A entrada pode conter, por exemplo, os valores 21 21 15 30. Neste caso, é entã
 | :----------------: | :----------------: |
 |       3 1 20       |         5          |
 
-### [Desafio 4 - Validação de Nota](\desafio_04.cs)
+### [Desafio 4 - Validação de Nota](/desafio_04.cs)
 
 Para ajudar a calcular as notas referentes às duas avaliações dos alunos, uma professora pediu para que você desenvolva um programa que calcule e imprima a média semestral. Faça com que o algoritmo só aceite notas válidas (uma nota válida deve pertencer ao intervalo [0,10]). Cada nota deve ser validada separadamente.
 
@@ -88,7 +88,7 @@ Quando duas notas válidas forem lidas, deve ser impressa a mensagem "media = " 
 |       11.0         |    media = 6.75    |
 |       10.0         |                    |
 
-### [Desafio 5 - Pedro Bento e o Mundo de OZ](\desafio_05.cs)
+### [Desafio 5 - Pedro Bento e o Mundo de OZ](/desafio_05.cs)
 
 No jogo, O Mundo de Oz, Pedro Bento é o líder do Tribunal, por causa disso ele é uma das pessoas mais importantes do mundo, no jogo. Além disso, Pedro Bento possui um grande tesouro, o qual possui diversos tipos de jóias.
 
