@@ -2,7 +2,7 @@
 
 ### [Desafio 1 - Visita na Feira](./desafio_01.js)
 
-Você está na feira com a sua sacola e parou em uma banca. O feirante lhe entregou pimentões amarelos e vermelhos. Agora iremos somar os pimetões amarelos e vermelhos para descobrir o total de pimentões na sacola.  Você receberá 2 inteiros que devem ser lidos e armazenados nas variáveis A (pimentões amarelos) e B (pimentões vermelhos). Faça a soma de A e B atribuindo o seu resultado na variável X (total de pimentões). Apresente X como descrito na mensagem de exemplo abaixo. Não apresente outra mensagem além da mensagem especificada.
+Você está na feira com a sua sacola e parou em uma banca. O feirante lhe entregou pimentões amarelos e vermelhos. Agora iremos somar os pimetões amarelos e vermelhos para descobrir o total de pimentões na sacola.  Você receberá 2 inteiros que devem ser lidos e armazenados nas variáveis *A (pimentões amarelos)* e *B (pimentões vermelhos)*. Faça a soma de *A* e *B* atribuindo o seu resultado na variável *X (total de pimentões)*. Apresente *X* como descrito na mensagem de exemplo abaixo. Não apresente outra mensagem além da mensagem especificada.
 
 
 | Entrada | 
@@ -21,7 +21,7 @@ Você está na feira com a sua sacola e parou em uma banca. O feirante lhe entre
 
 ### [Desafio 2 - Multiplicação Simples](./desafio_02.js)
 
-Você receberá dois valores inteiros. Faça a leitura e em seguida calcule o produto entre estes dois valores. Atribua esta operação à variável *PROD*, mostrando esta de acordo com a mensagem de saída esperada (exemplo abaixo). 
+Você receberá dois valores inteiros. Faça a leitura e em seguida calcule o produto entre estes dois valores. Atribua esta operação à variável **PROD**, mostrando esta de acordo com a mensagem de saída esperada (exemplo abaixo). 
 
 | Entrada | 
 | :-----: | 
@@ -29,12 +29,13 @@ Você receberá dois valores inteiros. Faça a leitura e em seguida calcule o pr
 
 | Saída |
 |:-----:|
-| Exiba a variável *PROD* conforme exemplo abaixo, tendo obrigatoriamente um espaço em branco antes e depois da igualdade. |
+| Exiba a variável **PROD** conforme exemplo abaixo, tendo obrigatoriamente um espaço em branco antes e depois da igualdade. |
  
 | Exemplo de Entrada |  Exemplo de Saída  |
 | :----------------: | :----------------: |
-|         3          |     PROD = 27      |
-|         9          |                    |
+| 3 <br> 9 | PROD = 27 |
+| -30 <br> 10 |PROD = -300 |
+| 0 <br> 9 | PROD = 0 |
 
 ### [Desafio 3 - Folha de Pagamento](./desafio_03.js)
 
@@ -50,7 +51,7 @@ Precisamos saber quanto uma determinada empresa deve pagar para seus colaborador
  
 | Exemplo de Entrada |        Exemplo de Saída        |
 | :----------------: |       :-----------------:      |
-|     25 100 5.50    | NUMBER = 25 SALARY = U$ 550.00 |
-|     1 200 20.50    | NUMBER = 1 SALARY = U$ 4100.00 |
-|     6 145 15.55    | NUMBER = 6 SALARY = U$ 2254.75 |
+| 25 <br> 100 <br> 5.50 | NUMBER = 25 <br> SALARY = U$ 550.00 |
+| 1 <br> 200 <br> 20.50 | NUMBER = 1 <br> SALARY = U$ 4100.00 |
+| 6 <br> 145 <br> 15.55 | NUMBER = 6 <br> SALARY = U$ 2254.75 |
 

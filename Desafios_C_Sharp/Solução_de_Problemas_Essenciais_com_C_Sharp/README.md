@@ -1,4 +1,4 @@
-## Introdução a Programação com C#
+## Solução de Problemas Essenciais com C#
 
 ### [Desafio 1 - Quadrado e ao Cubo](./desafio_01.cs)
 
@@ -14,12 +14,8 @@ Você terá o desafio de escrever um programa que leia um valor inteiro N (1 < N
 | Imprima a saída conforme o exemplo fornecido. |
  
 | Exemplo de Entrada |  Exemplo de Saída  |
-| :----------------: | :----------------: |
-|          5         |      1 1 1         |
-|                    |      2 4 8         |
-|                    |      3 9 27        |
-|                    |      4 16 64       |
-|                    |      5 25 125      |
+| :----------------: | :---------------- |
+| 5 | 1 1 1 <br> 2 4 8 <br> 3 9 27 <br> 4 16 64 <br> 5 25 125 |
 
 
 
@@ -35,18 +31,17 @@ A corrida de tartarugas é um esporte que cresceu muito nos últimos anos, fazen
 Sua tarefa é identificar qual o nível de velocidade da tartaruga mais veloz de um grupo.
 
 
-| Entrada |Saída|
-|:-------:|:-------:|
-|A entrada consiste de múltiplos casos de teste, e cada um consiste em duas linhas: A primeira linha contém um inteiro L (1 ≤ L ≤ 500) representando o número de tartarugas do grupo, e a segunda linha contém L inteiros Vi (1 ≤ Vi ≤ 50) representando as velocidades de cada tartaruga do grupo.|Para cada caso de teste, imprima uma única linha indicando o nível de velocidade da tartaruga mais veloz do grupo.|
+| Entrada | 
+| :-----: | 
+|A entrada consiste de múltiplos casos de teste, e cada um consiste em duas linhas: A primeira linha contém um inteiro **L** (1 ≤ **L** ≤ 500) representando o número de tartarugas do grupo, e a segunda linha contém **L** inteiros **Vi** (1 ≤ **Vi** ≤ 50) representando as velocidades de cada tartaruga do grupo.|
+
+| Saída |
+|:-----:|
+|Para cada caso de teste, imprima uma única linha indicando o nível de velocidade da tartaruga mais veloz do grupo.|
  
 | Exemplo de Entrada |  Exemplo de Saída  |
 | :----------------: | :----------------: |
-| 10                            |     3   |
-| 10 10 10 10 15 18 20 15 11 10 |         |
-| 10                            |     1   |
-| 1 5 2 9 5 5 8 4 4 3           |         |
-| 10                            |     2   |
-|19 9 1 4 5 8 6 11 9 7          |         |
+| 10 <br> 10 10 10 10 15 18 20 15 <br> 11 10 <br> 10 <br> 1 5 2 9 5 5 8 4 4 3 <br> 10  <br> 19 9 1 4 5 8 6 11 9 7 | 3 <br> 1 <br> 2|
 
 ### [Desafio 3 - Ultrapassando V](./desafio_03.cs)
 
@@ -65,7 +60,7 @@ A entrada pode conter, por exemplo, os valores 21 21 15 30. Neste caso, é entã
  
 | Exemplo de Entrada |  Exemplo de Saída  |
 | :----------------: | :----------------: |
-|       3 1 20       |         5          |
+| 3 <br> 1 <br> 20 | 5 |
 
 ### [Desafio 4 - Validação de Nota](./desafio_04.cs)
 
@@ -78,15 +73,11 @@ Para ajudar a calcular as notas referentes às duas avaliações dos alunos, uma
 
 | Saída |
 |:-----:|
-| Se uma nota inválida  for lida, deve ser impressa a mensagem "nota invalida".
-Quando duas notas válidas forem lidas, deve ser impressa a mensagem "media = " seguido do valor do cálculo. O valor deve ser apresentado com duas casas após o ponto decimal. |
+| Se uma nota inválida  for lida, deve ser impressa a mensagem "nota invalida". Quando duas notas válidas forem lidas, deve ser impressa a mensagem "media = " seguido do valor do cálculo. O valor deve ser apresentado com duas casas após o ponto decimal. |
  
 | Exemplo de Entrada |  Exemplo de Saída  |
 | :----------------: | :----------------: |
-|       -3.5         |    nota invalida   |
-|        3.5         |    nota invalida   |
-|       11.0         |    media = 6.75    |
-|       10.0         |                    |
+| -3.5 <br> 3.5 <br> 11.0 <br> 10.0 | nota invalida <br> nota invalida <br> media = 6.75 |
 
 ### [Desafio 5 - Pedro Bento e o Mundo de OZ](./desafio_05.cs)
 
@@ -107,8 +98,4 @@ Sabendo que você é o melhor programador do mundo, Pedro Bento te contratou par
  
 | Exemplo de Entrada |  Exemplo de Saída  |
 | :----------------: | :----------------: |
-|         ((         |         3          |
-|         ))         |                    |
-|         ((         |                    |
-|         ))         |                    |
-|         (          |                    |
+| (( <br> )) <br> (( <br> )) <br> ( | 3 |

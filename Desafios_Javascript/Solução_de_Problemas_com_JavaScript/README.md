@@ -7,7 +7,7 @@ Neste desafio sua tarefa será ler vários números e em seguida dizer quantas v
 
 | Entrada | 
 | :-----: | 
-| A primeira linha de entrada contem um único inteiro *N*, que indica a quantidade de valores que serão lidos para X (1 ≤ *N* ≤ 2000) logo em seguida. Com certeza cada número não aparecerá mais do que 20 vezes na entrada de dados.
+| A primeira linha de entrada contem um único inteiro **N**, que indica a quantidade de valores que serão lidos para X (1 ≤ **N** ≤ 2000) logo em seguida. Com certeza cada número não aparecerá mais do que 20 vezes na entrada de dados.
 
 | Saída |
 |:-----:|
@@ -15,14 +15,7 @@ Neste desafio sua tarefa será ler vários números e em seguida dizer quantas v
  
 | Exemplo de Entrada |  Exemplo de Saída     |
 | :----------------: | :----------------:    |
-|          7         | 4 aparece 1 vez(es)   |
-|          8         | 8 aparece 2 vez(es)   |
-|          10        | 10 aparece 3 vez(es)  |
-|          8         | 260 aparece 1 vez(es) |
-|          260       |                       |
-|          4         |                       |
-|          10        |                       |
-|          10        |                       |
+| 7 <br> 8 <br> 10 <br> 8 <br> 260 <br> 4 <br> 10 <br> 10 | 4 aparece 1 vez(es) <br> 8 aparece 2 vez(es) <br> 10 aparece 3 vez(es) <br> 260 aparece 1 vez(es)|
 	
 ### [Desafio 2 - Vogais Extraterrestres](./desafio_02.js)
 
@@ -41,12 +34,7 @@ Escreva um programa que, dado uma sequência de vogais, em um determinado alfabe
  
 |              Exemplo de Entrada            |  Exemplo de Saída     |
 |              :----------------:            | :----------------:    |
-|                    aeiou                   |          16           |
-|     o rato roeu a roupa do rei de roma     |                       |
-|                     4310                   |           8           |
-|              t3st3 p4r4 c0d1f1c4r          |                       |
-|                     kwy                    |           3           |
-| the quick brown fox jumps over the lazy dog|                       |
+| aeiou <br> o rato roeu a roupa do rei de roma <br> 4310 <br> t3st3 p4r4 c0d1f1c4r <br> kwy <br> the quick brown fox jumps over the lazy dog | 16 <br> 8 <br> 3 |
 
 
 ### [Desafio 3 - Melhor amigo do Pablo](./desafio_03.js)
@@ -68,22 +56,7 @@ OBS.: Ninguém que escolheu a opção Não realizou a inscrição mais de uma ve
  
 | Exemplo de Entrada |  Exemplo de Saída  |
 | :----------------: | :----------------: |
-|      Joao NAO      |       Abhay        |
-|      Carlos SIM    |       Aline        |
-|      Abner NAO     |       Andres       |
-|      Samuel SIM    |       Carlos       |
-|      Ricardo NAO   |       Samuel       |
-|      Abhay SIM     |       Abner        |
-|      Samuel SIM    |       Joao         |
-|      Andres SIM    |       Ricardo      |
-|      Roberto NAO   |       Roberto      |
-|      Carlos SIM    |                    |
-|      Samuel SIM    |   Amigo do Habay:  |
-|      Samuel SIM    |   Carlos           |
-|      Abhay SIM     |                    |
-|      Aline SIM     |                    |
-|      Andres SIM    |                    |
-|         FIM        |                    |
+| Joao NAO <br> Carlos SIM <br> Abner NAO <br> Samuel SIM <br> Ricardo NAO <br> Abhay SIM <br> Samuel SIM <br> Andres SIM <br> Roberto NAO <br> Carlos SIM <br> Samuel SIM <br> Samuel SIM <br> Abhay SIM <br> Aline SIM <br> Andres SIM <br> FIM | Abhay <br> Aline <br> Andres <br> Carlos <br> Samuel <br> Abner <br> Joao <br> Ricardo <br> Roberto  <br> <br> Amigo do Pablo: <br> Carlos |
 	
 ### [Desafio 4 - Entrevista embaraçosa](./desafio_04.js)
 
@@ -101,24 +74,17 @@ Escreva um programa que, dada uma palavra errada, a mesma seja corrigida.
  
 | Exemplo de Entrada |  Exemplo de Saída   |
 | :----------------: | :----------------:  |
-|    sanduicheiche   |     sanduiche       |
-|    barrilarril     |      barril         |
-|       ratoato      |       rato          |
-|         sol        |        sol          |
-|      coliseueu     |      coliseu        |
-|      queijoijo     |       queijo        |
-|     astroastro     |       astro         |
-|          a         |         a           |
+| sanduicheiche <br> barrilarril <br> ratoato <br> sol <br> coliseueu <br> queijoijo <br> astroastro <br> a | sanduiche <br> barril <br> rato <br> sol <br> coliseu <br> queijo <br> astro <br> a | 
 	
 ### [Desafio 5 - Conjuntos bons ou ruins?](./desafio_05.js)
 
 Nesse algoritmo você deverá descobrir se um conjunto de palavras é bom ou ruim. Por definição, um conjunto é bom quando nenhuma palavra desse conjunto é um prefixo de outra palavra. Caso contrário, é considerado um conjunto ruim.
 
-Por exemplo, {*dbc*, *dae*, *dbcde*} é um conjunto ruim, pois dbc é um prefixo de dbcde. Quando duas palavras são idênticas, definimos como uma sendo prefixo da outra.
+Por exemplo, {**dbc**, **dae**, **dbcde**} é um conjunto ruim, pois dbc é um prefixo de dbcde. Quando duas palavras são idênticas, definimos como uma sendo prefixo da outra.
 
 | Entrada | 
 | :-----: | 
-| A entrada contém vários casos de teste. A primeira linha de cada caso de teste terá um inteiro N (1 ≤ N ≤ 10⁵), que representa a quantidade de palavras no conjunto. Segue então N linhas, cada uma tendo uma palavra de no máximo 100 letras minúsculas. A entrada termina quando N = 0 e não deve ser processada.
+| A entrada contém vários casos de teste. A primeira linha de cada caso de teste terá um inteiro **N** (1 ≤ **N** ≤ 10⁵), que representa a quantidade de palavras no conjunto. Segue então N linhas, cada uma tendo uma palavra de no máximo 100 letras minúsculas. A entrada termina quando **N** = 0 e não deve ser processada.
 
 | Saída |
 |:-----:|
@@ -126,15 +92,8 @@ Por exemplo, {*dbc*, *dae*, *dbcde*} é um conjunto ruim, pois dbc é um prefixo
  
 | Exemplo de Entrada |  Exemplo de Saída   |
 | :----------------: | :----------------:  |
-|         3          |    Conjunto Ruim    |
-|         abc        |    Conjunto Bom     | 
-|         dae        |
-|         abcde      |
-|         2          |
-|         abc        |
-|         def        |
-|         0          |
-
+| 3 <br> abc <br> dae <br> abcde | Conjunto Ruim  |
+| 2 <br> abc <br> def <br> 0 | Conjunto Bom |
 
 ### [Desafio 6 - Produto e divisão](./desafio_06.js)
 
@@ -152,7 +111,7 @@ No segundo caso de teste abaixo, o usuário deseja calcular o resultado da segui
 
 | Entrada | 
 | :-----: | 
-| A primeira e única linha da entrada contém um inteiro *N* (1 ≤ *N* ≤ 100 000). Cada uma das próximas *N* linhas contém um dígito e um caractere '*' ou '/', que representam uma operação realizada na calculadora.
+| A primeira e única linha da entrada contém um inteiro **N** (1 ≤ **N** ≤ 100 000). Cada uma das próximas **N** linhas contém um dígito e um caractere '*' ou '/', que representam uma operação realizada na calculadora.
 
 | Saída |
 |:-----:|
@@ -160,26 +119,9 @@ No segundo caso de teste abaixo, o usuário deseja calcular o resultado da segui
  
 | Exemplo de Entrada |  Exemplo de Saída   |
 | :----------------: | :----------------:  |
-|          3         |6
-|          2 *
-|          1 *
-|          3 *
-|          3         |1
-|          2 /
-|          3 /
-|          6 *
-|          11        |387420489
-|          9 *
-|          9 *
-|          9 *
-|          9 *
-|          9 *
-|          9 *
-|          9 *
-|          9 *
-|          9 *
-|          9 *
-|          9 /
+| 3 <br> 2 * <br> 1 * <br> 3 * | 6 |
+| 3 <br> 2 / <br> 3 / <br> 6 * | 1 |
+| 11 <br> 9 * <br> 9 * <br> 9 * <br> 9 * <br> 9 * <br> 9 * <br> 9 * <br> 9 * <br> 9 * <br> 9 * <br> 9 / | 387420489 |
 
 
 ### [Desafio 7 - Barras de ouro](./desafio_07.js)
@@ -194,7 +136,7 @@ José como é o Rei, contratou o seu time para, dados a quantidade de ouro a ser
 
 | Entrada | 
 | :-----: | 
-| A primeira linha contém dois inteiros *N* e C indicando respectivamente o número de cidades e a capacidade de carga da carruagem (2 ≤ *N* ≤ 104 e 1 ≤ C ≤ 100). O feudo principal é identificado pelo número 1 e os outros feudos são identificadas por inteiros de 2 a *N* . A segunda linha contém *N* inteiros Ei representando a quantidade de imposto devido por cada feudo i (0 ≤ Ei ≤ 100 para 1 ≤ i ≤ *N* ). Cada uma das *N*-1 linhas seguintes contém três inteiros A , B e C , indicando que uma estrada liga o feudo A e o feudo B (1 ≤ A, B ≤ *N* ) e tem comprimento C (1 ≤ C ≤ 100).
+| A primeira linha contém dois inteiros **N** e C indicando respectivamente o número de cidades e a capacidade de carga da carruagem (2 ≤ **N** ≤ 104 e 1 ≤ C ≤ 100). O feudo principal é identificado pelo número 1 e os outros feudos são identificadas por inteiros de 2 a **N** . A segunda linha contém **N** inteiros Ei representando a quantidade de imposto devido por cada feudo i (0 ≤ Ei ≤ 100 para 1 ≤ i ≤ **N** ). Cada uma das **N**-1 linhas seguintes contém três inteiros A , B e C , indicando que uma estrada liga o feudo A e o feudo B (1 ≤ A, B ≤ **N** ) e tem comprimento C (1 ≤ C ≤ 100).
 
 | Saída |
 |:-----:|
@@ -202,23 +144,10 @@ José como é o Rei, contratou o seu time para, dados a quantidade de ouro a ser
  
 | Exemplo de Entrada |  Exemplo de Saída   |
 | :----------------: | :----------------:  |
-|       6 10         |          44         |
-|   0 10 10 10 10 10 |
-|       1 4 7        |
-|       5 1 2        |
-|       3 5 3        |
-|       2 5 2        |
-|       6 5 2        |
-|       3 10         |          58         |
-|      10 10 12      |
-|       1 2 5        |
-|       2 3 7        |
-|        5 9         |          10         |
-|      5 2 6 3 6     |
-|       1 2 1        |
-|       2 3 1        |
-|       2 4 1        |
-|       2 5 1        |
+| 6 10 <br> 10 10 10 10 10 <br> 1 4 7 <br> 5 1 2 <br> 3 5 3 <br> 2 5 2 <br> 6 5 2 | 44 |
+| 5 9  <br> 5 2 6 3 6 <br> 1 2 1 <br> 2 3 1 <br> 2 4 1 <br> 2 5 1 | 10 |
+	
+
 
 
 

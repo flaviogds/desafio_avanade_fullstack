@@ -6,40 +6,48 @@
 using System;
 
 class Desafio {
-    static void Main() {
+    static void Main(string[] args) {
     
     bool end = false;
     
     do{
-      string n = Console.ReadLine();
+      string input = Console.ReadLine();
   
-      if(string.IsNullOrEmpty(n)){
+      if(string.IsNullOrEmpty(input))
+      {
         end = true;
       }
-      else{
-        int length = Int32.Parse(n);
+      else
+      {
+        int length = Int32.Parse(input);
         
         string[] array = Console.ReadLine().Split(' ');
 
         int[] turtles = Array.ConvertAll(array, Int32.Parse);
         
-        int max = 0;
+        int maxSpeed  = 0;
         
-        foreach(int turtle in turtles){
-          if(turtle > max){
-            max = turtle;
+        foreach(int turtle in turtles)
+        {
+          if(turtle > maxSpeed ){
+            maxSpeed  = turtle;
           }
         }
 
-        if(max<10){
+        if(maxSpeed < 10)
+        {
             Console.WriteLine(1);
         }
-        else if(max>=10 && max<20){
+        else if(maxSpeed >= 10 && maxSpeed < 20)
+        {
             Console.WriteLine(2);
-        }else if(max>=20){
+        }
+        else if(maxSpeed >= 20)
+        {
             Console.WriteLine(3);
         }
       }
-    }while(!end);
+    }
+    while(!end);
   }
 }

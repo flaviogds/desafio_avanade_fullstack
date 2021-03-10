@@ -7,24 +7,28 @@
 using System;
 
 class Desafio {
-    static void Main() {
+    static void Main(string[] args) {
     
-    float soma = 0;
-    int count = 0;
+    float sum = 0;
+    int counter = 0;
     bool end = false;
     
-    while(!end){
+    while(!end)
+    {
       float input = float.Parse(Console.ReadLine());
       
-      if(input >= 0 && input <=10){
-        soma += input;
-        count++;
+      if(input >= 0 && input <=10)
+      {
+        sum += input;
+        counter++;
       }
-      else{
+      else
+      {
         Console.WriteLine("nota invalida");
       }
-      if(count == 2){
-        float media = (soma/2);
+      if(counter == 2)
+      {
+        float media = (sum/2);
         
         Console.WriteLine("media = " + media.ToString("N2"));
         

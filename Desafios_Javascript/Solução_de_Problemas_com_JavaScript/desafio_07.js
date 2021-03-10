@@ -1,22 +1,23 @@
-/*
-    Desafio 7 - Barras de ouro
-*/
-let [city, load]  = gets().split(" ").map(m => parseInt(m));
-let taxation = gets().split(" ").map(m => parseInt(m));
+/* Desafio 7 - Barras de ouro */
+
 let paths = [];
-
-for(let i = 0; i < city-1; i++){
-  let [a, b, c] = gets().split(" ").map(m => parseInt(m));
-  paths.push( { cityA: a, cityB: b, distance: c } );
-}
-
 let totalDistance = 0;
 
-for(path of paths.reverse()){
+let [city, load] = gets().split(" ").map(input => parseInt(input));
+
+let taxation = gets().split(" ").map(input => parseInt(input));
+
+for(let counter = 0; counter < city-1; counter++){
+  let [cityA, cityB, distance] = gets().split(" ").map(input => parseInt(input));
+  
+  paths.push( { cityA, cityB, distance } );
+}
+
+for( path of paths.reverse() ){
   let travel = 0;
   let routeLength = 0;
   
-  if(trueRoute(path)){
+  if( trueRoute(path) ){
     travel = Math.ceil(taxation[path.cityB - 1] / load);
     taxation[path.cityA - 1] += taxation[path.cityB - 1];
     taxation[path.cityB - 1] = 0;
@@ -33,10 +34,11 @@ console.log(totalDistance);
 
 function trueRoute(path){
   let goldRoute = -1;
-  if(path.cityB !== 1) {
+  
+  if( path.cityB !== 1 ) {
     goldRoute = paths
-      .filter(a => a.cityA === 1 || a.cityB === 1)
-        .filter(b => b.cityA === path.cityA || b.cityB === path.cityA)
+      .filter(route => route.cityA === 1 || route.cityB === 1)
+        .filter(route => route.cityA === path.cityA || route.cityB === path.cityA)
         .length;
   }
   return goldRoute > 0 ? true : false;

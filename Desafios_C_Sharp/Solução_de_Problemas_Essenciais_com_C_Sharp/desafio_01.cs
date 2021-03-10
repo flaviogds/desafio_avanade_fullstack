@@ -1,18 +1,14 @@
-/*
-
-    Desafio 1 - Quadrado e ao Cubo
-
-*/
+/* Desafio 1 - Quadrado e ao Cubo */
 using System;
 
 class Desafio {
-    static void Main() {
-        int n = Int32.Parse(Console.ReadLine());
+  static void Main(string[] args) {
+    int input = Int32.Parse(Console.ReadLine());
 
-        for(int i = 1; i <= n; i++ ){
-          int quadrado = i * i;
-          int cubo = i * i * i;
-          Console.WriteLine(i.ToString()+" "+quadrado.ToString()+" "+cubo.ToString());
-        }
+    for(int element = 1; element <= input; element++ ){
+      int square = element * element;
+      int cube = square * element;
+      Console.WriteLine(element.ToString()+" "+square.ToString()+" "+cube.ToString());
     }
+  }
 }

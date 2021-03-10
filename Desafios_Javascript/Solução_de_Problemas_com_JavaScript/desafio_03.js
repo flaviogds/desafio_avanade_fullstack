@@ -1,6 +1,4 @@
-/*
-    Desafio 3 - Melhor amigo do Pablo
-*/
+/* Desafio 3 - Melhor amigo do Pablo */
 
 let list = [];
 let index = 0;
@@ -57,10 +55,6 @@ list.map(student => {
   }
 });
 
-list.map(input => {
-  input.answer === "SIM" ? console.log(input.name) : null;
-});
-list.map(input => {
-  input.answer === "NAO" ? console.log(input.name) : null;
-});
-console.log(`/nAmigo do Pablo:/n${winner.name}`);
+list.map(input => input.answer === "SIM" ? console.log(input.name) : null );
+list.map(input => input.answer === "NAO" ? console.log(input.name) : null );
+console.log(`\nAmigo do Pablo:\n${winner.name}`);

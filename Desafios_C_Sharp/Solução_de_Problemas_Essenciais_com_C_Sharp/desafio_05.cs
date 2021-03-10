@@ -5,12 +5,12 @@
 */
 using System;
 
-class Program {
+class Desafio {
   
   static void Main(string[] args) {
     
     string input = "";
-    string[] bau = new string[1];
+    string[] treasurer = new string[1];
     bool end = false;
     
     while(!end){
@@ -21,12 +21,12 @@ class Program {
         end = true;
       }
       else{
-        if(!Array.Exists(bau, item => item == input)){
-          bau[(bau.Length-1)] = input;
-          Array.Resize(ref bau, (bau.Length+1));
+        if(!Array.Exists(treasurer, jewel => jewel == input)){
+          treasurer[(treasurer.Length-1)] = input;
+          Array.Resize(ref treasurer, (treasurer.Length+1));
         }
       }
     }
-    Console.WriteLine(bau.Length-1);
+    Console.WriteLine(treasurer.Length-1);
   }
 }

@@ -1,7 +1,7 @@
 # Desafios de Codificação
 
 
-## `Desafios de codificação realizados no Bootcamp Avanade Fullstack da Digital Innovation One`
+## `Desafios de codificação realizados no Bootcamp da Digital Innovation One`
 
 ### [Introdução a Programação com C#](Desafios_C_Sharp/Introdução_a_Programação_com_C_Sharp/README.md)
 
@@ -31,6 +31,27 @@
 
    **[Desafio 3](Desafios_Javascript/Introdução_a_Programação_com_Javascript/desafio_03.js)** - Folha de Pagamento
 
+
+### [Solução de prolemas básicos em Javascript](Desafios_Javascript/Solução_de_prolemas_básicos_em_Javascript/README.md)
+
+   **[Desafio 1](Desafios_Javascript/Solução_de_prolemas_básicos_em_Javascript/desafio_01.js)** - Dividindo X por Y
+
+   **[Desafio 2](Desafios_Javascript/Solução_de_prolemas_básicos_em_Javascript/desafio_02.js)** - Blobs
+
+   **[Desafio 3](Desafios_Javascript/Solução_de_prolemas_básicos_em_Javascript/desafio_03.js)** - Tipo de Combustível
+
+### [Praticando programação em Javascript](Desafios_Javascript/Praticando_programação_em_Javascript/README.md)
+
+   **[Desafio 1](Desafios_Javascript/Praticando_programação_em_Javascript/desafio_01.js)** - Quanta Mandioca?
+
+   **[Desafio 2](Desafios_Javascript/Praticando_programação_em_Javascript/desafio_02.js)** - Votação para Bobo da Corte
+
+   **[Desafio 3](Desafios_Javascript/Praticando_programação_em_Javascript/desafio_03.js)** - Comunicação em Piralândia
+
+   **[Desafio 4](Desafios_Javascript/Praticando_programação_em_Javascript/desafio_04.js)** - Contagem de Cédulas
+
+   **[Desafio 5](Desafios_Javascript/Praticando_programação_em_Javascript/desafio_05.js)** - Folha de Pagamento
+
 ### [Solução de Problemas com JavaScript](Desafios_Javascript/Solução_de_Problemas_com_JavaScript/README.md)
 
    **[Desafio 1](Desafios_Javascript/Solução_de_Problemas_com_JavaScript/desafio_01.js)** - Contagem repetida de números
@@ -46,6 +67,16 @@
    **[Desafio 6](Desafios_Javascript/Solução_de_Problemas_com_JavaScript/desafio_06.js)** - Produto e divisão
 
    **[Desafio 7](Desafios_Javascript/Solução_de_Problemas_com_JavaScript/desafio_07.js)** - Barras de ouro
+
+### [Desenvolvimento de problemas avançados em Javascript](Desafios_Javascript/Desenvolvimento_de_problemas_avançados_em_Javascript/README.md)
+
+   **[Desafio 1](Desafios_Javascript/Desenvolvimento_de_problemas_avançados_em_Javascript/desafio_01.js)** - Ordenando Números Pares e Ímpares
+
+   **[Desafio 2](Desafios_Javascript/Desenvolvimento_de_problemas_avançados_em_Javascript/desafio_02.js)** - Animal
+
+   **[Desafio 3](Desafios_Javascript/Desenvolvimento_de_problemas_avançados_em_Javascript/desafio_03.js)** - Compras no Supermercado
+
+   
 
 ### [Executando os desafios de Javascript](Desafios_Javascript/README.md)
 

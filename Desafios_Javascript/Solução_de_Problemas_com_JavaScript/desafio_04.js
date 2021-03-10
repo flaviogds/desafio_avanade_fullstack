@@ -1,6 +1,4 @@
-/*
-    Desafio 4 - Entrevista embaraçosa
-*/
+/* Desafio 4 - Entrevista embaraçosa */
 
 let strgsList = [];
 let input = "";
@@ -8,24 +6,18 @@ let exit = false;
 
 while(!exit){
   input = gets();
-  
-  if(input !== ''){
-    strgsList.push(input);
-  }
-  else{
-    exit = true
-  }
+  input !== '' ? strgsList.push(input) : exit = true;
 }
 
-for(let i = 0; i < strgsList.length; i++){
+for(let counterSTR = 0; counterSTR < strgsList.length; counterSTR++){
   let read = strgsList.shift();
 
   while(read != null){
     read = read.trim();
     if(read.length > 0 && read.length <= 30){
       let result = rectify(read);
-      for(let i = result.length - 1; i >= 0; i--){
-          console.log(result[i]);
+      for(let counterSUB = result.length - 1; counterSUB >= 0; counterSUB--){
+          console.log(result[counterSUB]);
       }
     }
     read = strgsList.shift();
@@ -46,6 +38,7 @@ function rectify(strg){
 
   while (length >= 0 && !end) {
     length = control - subStrg.length;
+    
     if (length >= 0) {
         path = strg.substring(control - subStrg.length, control);
         if (path == subStrg){
@@ -53,16 +46,14 @@ function rectify(strg){
             position = control;
         }
         control--;
-        if (control >= 0) {
-            subStrg = deconstruct[control] + subStrg;
-        }
+        
+        control >= 0 ? subStrg = deconstruct[control] + subStrg : null;
     }
     else {
         end = true;
     }
   }
-  if (position == -1) {
-      result.push(strg);
-  }
+  position == -1 ? result.push(strg) : null;
+  
   return result;
 }

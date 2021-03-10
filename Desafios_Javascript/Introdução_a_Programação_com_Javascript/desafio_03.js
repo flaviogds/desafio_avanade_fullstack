@@ -1,8 +1,4 @@
-/*
-
-    Desafio 3 - Folha de Pagamentos
-    
-*/
+/* Desafio 3 - Folha de Pagamentos */
 
 let value_1 = parseInt(gets());
 let value_2 = parseInt(gets());

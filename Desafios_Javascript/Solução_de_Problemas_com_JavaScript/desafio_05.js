@@ -1,16 +1,13 @@
-/*
-    Desafio 5 - Conjuntos bons ou ruins?
-*/
-let n = parseInt(gets());
+/* Desafio 5 - Conjuntos bons ou ruins? */
+
+let nEntries = parseInt(gets());
 let strgList = [];
 let exit = 0;
 
-const findPrefix = (fix, strg) => {
-  return strg.startsWith(fix);
-}
+const findPrefix = (fix, strg) => strg.startsWith(fix);
 
 do {
-  for (let i = 0; i < n; i++) {
+  for (let counter = 0; counter < nEntries; counter++) {
     let str = gets();
     strgList.map(word => {
       if (word.length < str.length) {
@@ -28,5 +25,5 @@ do {
   }
   exit = 0;
   strgList = [];
-  n = parseInt(gets());
-} while (n !== 0);
+  nEntries = parseInt(gets());
+} while (nEntries !== 0);

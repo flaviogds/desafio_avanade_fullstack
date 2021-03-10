@@ -1,28 +1,19 @@
-/*
-    Desafio 1 - Contagem repetida de números
-*/
-let n = parseInt(gets());
+/* Desafio 1 - Contagem repetida de números */
 
-let array = [];
-let newArray = [];
+let nEntries = parseInt(gets());
+let arrayInput = [];
 
-for( i = 0; i < n; i++){
-  array.push(parseInt(gets()));
+for( let counter = 0; counter < nEntries; counter++){
+  arrayInput.push(parseInt(gets()));
 }
 
-array.sort((a, b) => {
-    if(a > b){
-        return 1;
-    }else if(a < b){
-        return -1;
-    }
-    else {
-        return 0;
-    }
+arrayInput.sort((a, b) => {
+    if(a > b) return 1;
+    else if(a < b) return -1;
+    else return 0;
 });
 
-while(array.length > 0){
-  console.log(array[0] + " aparece " + array.filter(item => item === array[0]).length + " vez(es)");
-  array = [...array.filter(item => item !== array[0])];
+while(arrayInput.length > 0){
+  console.log(arrayInput[0] + " aparece " + arrayInput.filter(item => item === arrayInput[0]).length + " vez(es)");
+  arrayInput = [...arrayInput.filter(item => item !== arrayInput[0])]
 }
-
