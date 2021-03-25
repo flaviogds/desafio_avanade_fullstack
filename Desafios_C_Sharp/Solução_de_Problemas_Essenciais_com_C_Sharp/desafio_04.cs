@@ -1,8 +1,4 @@
-/*
-
-    Desafio 4 - Validação de Nota
-
-*/
+/* Desafio 4 - Validação de Nota */
 
 using System;
 

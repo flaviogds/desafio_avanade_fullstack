@@ -1,8 +1,4 @@
-/*
-
-  Desafio 2 - A Corrida de Tartarugas
-
-*/
+/* Desafio 2 - A Corrida de Tartarugas */
 using System;
 
 class Desafio {

@@ -62,3 +62,60 @@ Marlene por sua vez sempre come 225 gramas de mandioca. Cansada de todo ano ter 
 |:----------------:| :----------------: |
 | 1 <br> 1 <br> 1 <br> 1 <br> 1 | 3775 |
 | 2 <br> 2 <br> 2 <br> 2 <br> 2 | 7325 |
+
+### [Desafio 2 - Bazinga!](./desafio_02-1.cs)
+#### (Introdução a programação com .NET)
+
+Em um episódio da aclamada série The Big Ban Theor dois pernagens, Sheldon e Raj, discutem qual dos dois é o melhor: o filme Saturn 3 ou a série Deep Space 9. A sugestão de Raj para a resolução do impasse é uma disputa de Pedra-Papel-Tesoura. Contudo, Sheldon argumenta que, se as partes envolvidas se conhecem, entre 75% e 80% das disputas de Pedra-Papel-Tesoura terminam empatadas, e então sugere o Pedra-Papel-Tesoura-Lagarto-Spock.
+
+As regras do jogo proposto são:
+
+1. a tesoura corta o papel;
+2. o papel embrulha a pedra;
+3. a pedra esmaga o lagarto;
+4. o lagarto envenena Spock;
+5. Spock destrói a tesoura;
+6. a tesoura decapita o lagarto;
+7. o lagarto come o papel;
+8. o papel contesta Spock;
+9. Spock vaporiza a pedra;
+10. a pedra quebra a tesoura.
+
+Conhecendo os personagens, sabemos que caso Sheldon vencesse, ele gritaria a vitória com um "Bazinga!". Se Raj vencesse, Sheldon o acusaria de ter trapaceado. Agora, se desse empate, Sheldon não descansaria e insistira para jogarem de novo até que seja decidido. Sabendo dessas ações, faça um programa que imprima a provável reação de Sheldon.
+
+| Entrada | 
+| :-----: | 
+| A entrada consiste em uma série de casos de teste. A primeira linha contém um inteiro positivo T (T ≤ 100), que representa o número de casos de teste. Cada caso de teste é representado por uma linha da entrada, contendo as escolhas de Sheldon e Raj, respectivamente, separadas por um espaço em branco. As escolhas possíveis são as personagens do jogo: pedra, papel, tesoura, lagarto e Spock.
+
+| Saída |
+|:-----:|
+| Para cada caso de teste deverá ser impressa a mensagem "Caso #t: R", onde t é o número do caso de teste (cuja contagem se inicia no número um) e R é uma das três reações possíveis de Sheldon: "Bazinga!", "Raj trapaceou!", ou "De novo!". |
+
+
+|Exemplo de Entrada|  Exemplo de Saída  |
+|:----------------:| :----------------: |
+| 3 <br> papel pedra <br> lagarto tesoura <br> Spock Spock | Caso #1: Bazinga! <br> Caso #2: Raj trapaceou! <br> Caso #3: De novo! |
+
+### [Desafio 3 - Coxinha de Bueno](./desafio_02-1.cs)
+#### (Introdução a programação com .NET)
+
+Em 2015 um novo record foi alcançado na competição de Coxinhas de Bueno de Andrada, onde Mônica mandou pra dentro 43 coxinhas em apenas 10 minutos, passando se antecessor que conseguiu comer, no mesmo tempo, 38 coxinhas em 2014.
+
+O restaurante especializado em coxinhas do pequeno distrito de Bueno de Andrada, interior de São Paulo, organiza essa competição todos os anos, mas nunca conseguiram entrar para o livro dos recordes, o Guinness Book. Para isso, o restaurante precisa preencher informações sobre a competição, como o número de coxinhas consumidas pelos competidores durante o evento. 
+
+Porém, como jó foi informado, a especialidade deles é coxinha, não matemática, então será que você pode ajudá-los? Com base no número total de coxinhas consumidas e o número de participantes na competição, o dono do restaurante precisa que você desenvolva um programa para saber a quantidade média de coxinha que os participantes da competição conseguem devorar.
+
+Ah, lembre que, em troca da sua ajuda, você poderá comer quantas coxinhas conseguir.
+
+| Entrada | 
+| :-----: | 
+| A entrada consiste de uma única linha que contém dois inteiros H e P (1 ≤ H, P ≤ 1000) indicando respectivamente o número total de coxinhas consumidas e o número total de participantes na competição.
+
+| Saída |
+|:-----:|
+| Seu programa deve produzir uma única linha com um número racional representando o número médio de coxinhas consumidas pelos participantes. O resultado deve ser escrito como um número racional com exatamente dois dígitos após o ponto decimal, arredondado se necessário. |
+
+
+|Exemplo de Entrada|  Exemplo de Saída  |
+|:----------------:| :----------------: |
+| 10 90 <br> 840 11 <br> 1 50 | 0.11  <br> 76.36 <br> 0.02 |

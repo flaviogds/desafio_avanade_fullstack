@@ -1,15 +1,22 @@
 # Desafios de Codificação
 
-
 ## `Desafios de codificação realizados no Bootcamp da Digital Innovation One`
 
 ### [Introdução a Programação com C#](Desafios_C_Sharp/Introdução_a_Programação_com_C_Sharp/README.md)
+
 
    **[Desafio 1](Desafios_C_Sharp/Introdução_a_Programação_com_C_Sharp/desafio_01.cs)** - Dividindo X por Y
 
    **[Desafio 2](Desafios_C_Sharp/Introdução_a_Programação_com_C_Sharp/desafio_02.cs)** - Distância
 
    **[Desafio 3](Desafios_C_Sharp/Introdução_a_Programação_com_C_Sharp/desafio_03.cs)** - Quanta Mandioca?
+
+#### (Introdução a programação com .NET)
+
+   **[Desafio 2](Desafios_C_Sharp/Introdução_a_Programação_com_C_Sharp/desafio_02-1.cs)** - Bazinga!
+
+   **[Desafio 3](Desafios_C_Sharp/Introdução_a_Programação_com_C_Sharp/desafio_03-1.cs)** - Coxinha de Bueno
+
 
 ### [Solução de Problemas Essenciais com C#](Desafios_C_Sharp/Solução_de_Problemas_Essenciais_com_C_Sharp/README.md)
 
@@ -22,6 +29,42 @@
    **[Desafio 4](Desafios_C_Sharp/Solução_de_Problemas_Essenciais_com_C_Sharp/desafio_04.cs)** - Validação de Nota
 
    **[Desafio 5](Desafios_C_Sharp/Solução_de_Problemas_Essenciais_com_C_Sharp/desafio_05.cs)** - Pedro Bento e o Mundo de OZ
+
+#### (Solução de Problemas com .NET#)
+
+   **[Desafio 1](Desafios_C_Sharp/Solução_de_Problemas_Essenciais_com_C_Sharp/desafio_01-1.cs)** - Programa para Validação de Notas
+
+   **[Desafio 2](Desafios_C_Sharp/Solução_de_Problemas_Essenciais_com_C_Sharp/desafio_02-1.cs)** - A Quanta Mandioca?
+
+   **[Desafio 3](Desafios_C_Sharp/Solução_de_Problemas_Essenciais_com_C_Sharp/desafio_03-1.cs)** - Compras no Supermercado
+
+   **[Desafio 4](Desafios_C_Sharp/Solução_de_Problemas_Essenciais_com_C_Sharp/desafio_04-1.cs)** - Validador de senhas com requisitos
+
+   **[Desafio 5](Desafios_C_Sharp/Solução_de_Problemas_Essenciais_com_C_Sharp/desafio_05-1.cs)** - Fila do Banco
+
+### [Busca e laços de repetição em Java](Desafios_Java/Busca_e_laços_de_repetição/README.md)
+
+   **[Desafio 1](Desafios_Java/Busca_e_laços_de_repetição/desafio_01.cs)** - Ordenando Números Pares e Ímpares
+
+   **[Desafio 2](Desafios_Java/Busca_e_laços_de_repetição/desafio_02.cs)** - Compras no Supermercado
+
+   **[Desafio 3](Desafios_Java/Busca_e_laços_de_repetição/desafio_03.cs)** - Uniformes de final de ano
+
+   **[Desafio 4](Desafios_Java/Busca_e_laços_de_repetição/desafio_04.cs)** - Fila do Banco
+
+   **[Desafio 5](Desafios_Java/Busca_e_laços_de_repetição/desafio_05.cs)** - Gincana no Acampamento
+
+### [Resolvendo Algoritmos com Java](Desafios_Java/Resolvendo_Algoritmos_com_Java/README.md)
+
+**[Desafio 1](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_01.cs)** - Coração das cartas
+
+**[Desafio 2](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_02.cs)** - Abreviando posts do blog
+
+**[Desafio 3](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_03.cs)** - Combinação de strings
+
+**[Desafio 4](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_04.cs)** - Hash Mágico
+
+**[Desafio 5](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_05.cs)** - O tabuleiro secreto
 
 ### [Introdução a Programação com Javascript](Desafios_Javascript/Introdução_a_Programação_com_Javascript/README.md)
 
@@ -40,6 +83,30 @@
 
    **[Desafio 3](Desafios_Javascript/Solução_de_prolemas_básicos_em_Javascript/desafio_03.js)** - Tipo de Combustível
 
+### [Solução de Problemas Essenciais](Desafios_Javascript/Solução_de_Problemas_Essenciais/README.md)
+
+   **[Desafio 1](Desafios_Javascript/Solução_de_Problemas_Essenciais/desafio_01.js)** - Quadrado e ao Cubo
+
+   **[Desafio 2](Desafios_Javascript/Solução_de_Problemas_Essenciais/desafio_02.js)** - A Corrida de Tartarugas
+
+   **[Desafio 3](Desafios_Javascript/Solução_de_Problemas_Essenciais/desafio_03.js)** - Ultrapassando V
+
+   **[Desafio 4](Desafios_Javascript/Solução_de_Problemas_Essenciais/desafio_04.js)** - Validação de Nota
+
+   **[Desafio 5](Desafios_Javascript/Solução_de_Problemas_Essenciais/desafio_05.js)** - Pedro Bento e o Mundo de OZ
+
+### [Problemas Aritiméticos](Desafios_Javascript/Problemas_Aritiméticos/README.md)
+
+   **[Desafio 1](Desafios_Javascript/Problemas_Aritiméticos/desafio_01.js)** - Soma Simples
+
+   **[Desafio 2](Desafios_Javascript/Problemas_Aritiméticos/desafio_02.js)** - Coxinha do Bueno
+
+   **[Desafio 3](Desafios_Javascript/Problemas_Aritiméticos/desafio_03.js)** - Cálculo de viagem
+
+   **[Desafio 4](Desafios_Javascript/Problemas_Aritiméticos/desafio_04.js)** - Taxa de imposto de Renda
+
+   **[Desafio 5](Desafios_Javascript/Problemas_Aritiméticos/desafio_05.js)** - Teorema da Divisão Euclidiana
+
 ### [Praticando programação em Javascript](Desafios_Javascript/Praticando_programação_em_Javascript/README.md)
 
    **[Desafio 1](Desafios_Javascript/Praticando_programação_em_Javascript/desafio_01.js)** - Quanta Mandioca?
@@ -51,6 +118,18 @@
    **[Desafio 4](Desafios_Javascript/Praticando_programação_em_Javascript/desafio_04.js)** - Contagem de Cédulas
 
    **[Desafio 5](Desafios_Javascript/Praticando_programação_em_Javascript/desafio_05.js)** - Folha de Pagamento
+
+### [Busca e laços de repetição](Desafios_Javascript/Busca_e_laços_de_repetição/README.md)
+
+   **[Desafio 1](Desafios_Javascript/Busca_e_laços_de_repetição/desafio_01.js)** - O Escolhido
+
+   **[Desafio 2](Desafios_Javascript/Praticando_programação_em_Javascript/desafio_03.js)** - Comunicação em Piralândia
+
+   **[Desafio 3](Desafios_Javascript/Busca_e_laços_de_repetição/desafio_03.js)** - Degustação de vinho
+
+   **[Desafio 4](Desafios_Javascript/Busca_e_laços_de_repetição/desafio_04.js)** - Pink e Cérebro
+
+   **[Desafio 5](Desafios_Javascript/Busca_e_laços_de_repetição/desafio_05.js)** - Menor e Posição
 
 ### [Solução de Problemas com JavaScript](Desafios_Javascript/Solução_de_Problemas_com_JavaScript/README.md)
 

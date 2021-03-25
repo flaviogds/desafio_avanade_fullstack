@@ -1,8 +1,4 @@
-/*
-
-    Desafio 5 - Pedro Bento e o Mundo de OZ
-
-*/
+/* Desafio 5 - Pedro Bento e o Mundo de OZ */
 using System;
 
 class Desafio {

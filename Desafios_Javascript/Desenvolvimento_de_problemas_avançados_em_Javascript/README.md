@@ -65,4 +65,4 @@ O problema é que o aplicativo não exclui itens duplicados, como Pedro anota o 
  
 | Exemplo de Entrada |  Exemplo de Saída     |
 | :----------------: | :----------------:    |
-| 2 <br> carne laranja suco picles <br> laranja picles <br> laranja pera laranja pera <br> pera | carne laranja <br> picles suco <br> laranja pera
+| 2 <br> carne laranja suco picles <br> laranja picles <br> laranja pera laranja pera <br> pera | carne laranja <br> picles suco <br> laranja pera |

@@ -1,8 +1,4 @@
-/*
-
-    Desafio 3 - Ultrapassando V 
-    
-*/
+/* Desafio 3 - Ultrapassando V */
 using System;
 
 class Desafio {
