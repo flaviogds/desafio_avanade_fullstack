@@ -42,29 +42,41 @@
 
    **[Desafio 5](Desafios_C_Sharp/Solução_de_Problemas_Essenciais_com_C_Sharp/desafio_05-1.cs)** - Fila do Banco
 
+### [Introdução a Busca e Ordenação em Java](Desafios_Java/Introdução_a_Busca_e_Ordenação_em_Java/README.md)
+
+   **[Desafio 1](Desafios_Java/Introdução_a_Busca_e_Ordenação_em_Java/desafio_01.java)** - Ordenação de palavras por tamanho
+
+   **[Desafio 2](Desafios_Java/Introdução_a_Busca_e_Ordenação_em_Java/desafio_02.java)** - Encontre a maior substring
+
+   **[Desafio 3](Desafios_Java/Introdução_a_Busca_e_Ordenação_em_Java/desafio_03.java)** - Validador de senhas com requisitos
+
+   **[Desafio 4](Desafios_Java/Introdução_a_Busca_e_Ordenação_em_Java/desafio_04.java)** - Pedra, Papel, Tesoura, Lagarto e Spock
+
+   **[Desafio 5](Desafios_Java/Introdução_a_Busca_e_Ordenação_em_Java/desafio_05.java)** -  Atalhos para o Weblogger Brasil
+
 ### [Busca e laços de repetição em Java](Desafios_Java/Busca_e_laços_de_repetição/README.md)
 
-   **[Desafio 1](Desafios_Java/Busca_e_laços_de_repetição/desafio_01.cs)** - Ordenando Números Pares e Ímpares
+   **[Desafio 1](Desafios_Java/Busca_e_laços_de_repetição/desafio_01.java)** - Ordenando Números Pares e Ímpares
 
-   **[Desafio 2](Desafios_Java/Busca_e_laços_de_repetição/desafio_02.cs)** - Compras no Supermercado
+   **[Desafio 2](Desafios_Java/Busca_e_laços_de_repetição/desafio_02.java)** - Compras no Supermercado
 
-   **[Desafio 3](Desafios_Java/Busca_e_laços_de_repetição/desafio_03.cs)** - Uniformes de final de ano
+   **[Desafio 3](Desafios_Java/Busca_e_laços_de_repetição/desafio_03.java)** - Uniformes de final de ano
 
-   **[Desafio 4](Desafios_Java/Busca_e_laços_de_repetição/desafio_04.cs)** - Fila do Banco
+   **[Desafio 4](Desafios_Java/Busca_e_laços_de_repetição/desafio_04.java)** - Fila do Banco
 
-   **[Desafio 5](Desafios_Java/Busca_e_laços_de_repetição/desafio_05.cs)** - Gincana no Acampamento
+   **[Desafio 5](Desafios_Java/Busca_e_laços_de_repetição/desafio_05.java)** - Gincana no Acampamento
 
 ### [Resolvendo Algoritmos com Java](Desafios_Java/Resolvendo_Algoritmos_com_Java/README.md)
 
-**[Desafio 1](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_01.cs)** - Coração das cartas
+**[Desafio 1](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_01.java)** - Coração das cartas
 
-**[Desafio 2](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_02.cs)** - Abreviando posts do blog
+**[Desafio 2](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_02.java)** - Abreviando posts do blog
 
-**[Desafio 3](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_03.cs)** - Combinação de strings
+**[Desafio 3](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_03.java)** - Combinação de strings
 
-**[Desafio 4](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_04.cs)** - Hash Mágico
+**[Desafio 4](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_04.java)** - Hash Mágico
 
-**[Desafio 5](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_05.cs)** - O tabuleiro secreto
+**[Desafio 5](Desafios_Java/Resolvendo_Algoritmos_com_Java/desafio_05.java)** - O tabuleiro secreto
 
 ### [Introdução a Programação com Javascript](Desafios_Javascript/Introdução_a_Programação_com_Javascript/README.md)
 
