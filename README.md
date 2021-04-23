@@ -42,6 +42,15 @@
 
    **[Desafio 5](Desafios_C_Sharp/Solução_de_Problemas_Essenciais_com_C_Sharp/desafio_05-1.cs)** - Fila do Banco
 
+### [Iniciando a programação em Java](Desafios_Java\Iniciando_a_Programação_em_Java\README.md)
+
+**[Desafio 1](Desafios_Java\Iniciando_a_Programação_em_Java\desafio_01.java)** - Exibindo Números Pares
+
+**[Desafio 2](Desafios_Java\Iniciando_a_Programação_em_Java\desafio_02.java)** - Entrada e Saída CPF
+
+**[Desafio 3](Desafios_Java\Iniciando_a_Programação_em_Java\desafio_03.java)** - DDD
+
+
 ### [Introdução a Busca e Ordenação em Java](Desafios_Java/Introdução_a_Busca_e_Ordenação_em_Java/README.md)
 
    **[Desafio 1](Desafios_Java/Introdução_a_Busca_e_Ordenação_em_Java/desafio_01.java)** - Ordenação de palavras por tamanho
@@ -65,6 +74,19 @@
    **[Desafio 4](Desafios_Java/Busca_e_laços_de_repetição/desafio_04.java)** - Fila do Banco
 
    **[Desafio 5](Desafios_Java/Busca_e_laços_de_repetição/desafio_05.java)** - Gincana no Acampamento
+
+
+### [Solucionando Desafios Matemáticos em Java](Desafios_Java\Solucionando_Desafios_Matemáticos_em_Java\README.md)
+
+**[Desafio 1](Desafios_Java\Solucionando_Desafios_Matemáticos_em_Java\desafio_01.java)** - Cálculo de viagem
+
+**[Desafio 2](Desafios_Java\Solucionando_Desafios_Matemáticos_em_Java\desafio_02.java)** - Área do Círculo
+
+**[Desafio 3](Desafios_Java\Solucionando_Desafios_Matemáticos_em_Java\desafio_03.java)** - Folha de Pagamento
+
+**[Desafio 4](Desafios_Java\Solucionando_Desafios_Matemáticos_em_Java\desafio_04.java)** - Múltiplos
+
+**[Desafio 5](Desafios_Java\Solucionando_Desafios_Matemáticos_em_Java\desafio_05.java)** - Análise de Números
 
 ### [Resolvendo Algoritmos com Java](Desafios_Java/Resolvendo_Algoritmos_com_Java/README.md)
 
